@@ -21,7 +21,8 @@
 
 ## Description
 
-_This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have._
+This document is a class project to demonstrate using APIs and promises with sync await, try/ catch and fetch.
+User can find a potential Catboy Waifu by clicking the button. If they feel like the Catboy is their match, they can get more info of them and open a dialogue.
 
 ## Setup/Installation Requirements
 
