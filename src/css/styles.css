@@ -1,10 +1,8 @@
-/* .results, #your-match {
+.results, #your-match, #error-message {
   display: none;
-} */
+}
 
 body {
   background-color: darkorchid;
   text-align: center;
 }
-
-
