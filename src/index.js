@@ -11,7 +11,7 @@ function getElements(catResponse, nameResponse) {
     $('.results').show();
     $('#image').html(`<img src=${catResponse.url} width="300">`);
     $('#name').html(`Name: ${nameResponse.results[0].name.first}`); 
-    $('#details').text(); 
+    $('#details').html("About: " + About.getSentence()); 
   } else {
     $('#error-message').show();
     $('#error-message').text(`There was an error: ${catResponse, nameResponse}`);
@@ -31,6 +31,8 @@ $(document).ready(function() {
     makeApiCall();
   });
   $('#match').on('click', function() {
-    $('#your-match').show();
+    $('#your-match').fadeIn();
+    $('.newCatboy').hide();
+    $('.results').hide(); //for our match html, keep image, name; add in "chat" functionality? Also a divorce button to play again
   });
 });

@@ -1,3 +1,11 @@
 export default class About {
-  
+  static getSentence() {
+    const catIpsum = ["Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on goofballs hunt anything that moves, need to chase tail  stand in front of the computer screen   intently stare at the same spot inspect anything brought into the house  rub face on everything chew ipad power cord ,  intently sniff hand  chase imaginary bugs  intrigued by the shower make muffins why must they do that sweet beast under the bed.", "Intently stare at the same spot sweet beast under the bed attack feet flop over hide when guests come over destroy couch chew ipad power cord  chase imaginary bugs why must they do that, behind the couch make muffins bag stretch  rub face on everything  stand in front of the computer screen  give attitude hunt anything that moves hopped up on goofballs, need to chase tail inspect anything brought into the house   intrigued by the shower  intently sniff hand  need to chase tail behind the couch.", "Hunt anything that moves attack feet why must they do that flop over  intently sniff hand  need to chase tail hide when guests come over  rub face on everything intently stare at the same spot, chew ipad power cord   destroy couch make muffins chase imaginary bugs bag stretch inspect anything brought into the house behind the couch, give attitude  intrigued by the shower sweet beast under the bed  stand in front of the computer screen  hopped up on goofballs destroy couch give attitude.", "Hopped up on goofballs chase imaginary bugs  stand in front of the computer screen  hide when guests come over flop over  intrigued by the shower  destroy couch why must they do that make muffins, bag stretch sweet beast under the bed behind the couch need to chase tail attack feet give attitude intently stare at the same spot  rub face on everything, chew ipad power cord   intently sniff hand  hunt anything that moves inspect anything brought into the house chew ipad power cord   stand in front of the computer screen  give attitude hunt anything that moves."];
+    
+    let randomIndex = function(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+
+    return catIpsum[randomIndex(0, 3)];
+  }
 }
