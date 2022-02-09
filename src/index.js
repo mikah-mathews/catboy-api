@@ -30,9 +30,16 @@ $(document).ready(function() {
   $('#search').click(function() {
     makeApiCall();
   });
+
   $('#match').on('click', function() {
     $('#your-match').fadeIn();
     $('.newCatboy').hide();
     $('.results').hide(); //for our match html, keep image, name; add in "chat" functionality? Also a divorce button to play again
   });
+
+  $("#breakUp").on('click', function() {
+    $('.newCatboy').show();
+    $('#your-match').hide();
+  });
+
 });
