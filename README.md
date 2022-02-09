@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Adore a Catboy_
 
-#### By Jase Seeley
+#### By Mikah Mathews and Zachary Green
 
-#### _{Brief description of application}_
+#### _Brief description of application_
 
 ## Technologies Used
 * HTML
@@ -21,11 +21,11 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have._
 
 ## Setup/Installation Requirements
 
-* Visit https://jcseeley.github.io/
+* Visit https://mikah-mathews.github.io/
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory.
 * Open the index.html file in your browser.
@@ -37,7 +37,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 * Run "$ npm run start" to open the dev server. Or you can open a VS Code live server on the "index.html" file in the "dist" folder.
 * Run "$ npm test" to run Jest tests.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again._
 
 ## Known Bugs
 
@@ -47,6 +47,5 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 MIT
 
-Copyright (c) 2022 Jase Seeley  
+Copyright (c) 2022 Mikah Mathews & Zachary Green  
   
-  ## Tests
