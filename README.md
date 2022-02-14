@@ -2,7 +2,7 @@
 
 #### By Mikah Mathews and Zachary Green
 
-#### _Brief description of application_
+#### _A website where you can click through different Catboy's and match with them_
 
 ## Technologies Used
 * HTML
@@ -36,9 +36,6 @@ User can find a potential Catboy Waifu by clicking the button. If they feel like
 * Run "$ npm install"
 * Run "$ npm run build" to build the project.
 * Run "$ npm run start" to open the dev server. Or you can open a VS Code live server on the "index.html" file in the "dist" folder.
-* Run "$ npm test" to run Jest tests.
-
-_Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again._
 
 ## Known Bugs
 
